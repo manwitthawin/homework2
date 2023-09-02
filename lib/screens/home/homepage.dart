@@ -54,7 +54,7 @@ class _HomePage extends State<HomePage> {
                 children: [
                   Expanded(
                     child: CategoryButton(
-                      name: 'Full Access to Patten Lessons',
+                      text: 'Full Access to Patten Lessons',
                       image: 'assets/images/earth-globe.png',
                     ),
                   ),
@@ -63,7 +63,7 @@ class _HomePage extends State<HomePage> {
                   ),
                   Expanded(
                     child: CategoryButton(
-                      name: 'Unlock all Limitations',
+                      text: 'Unlock all Limitations',
                       image: 'assets/images/history-book.png',
                     ),
                   ),
@@ -76,14 +76,14 @@ class _HomePage extends State<HomePage> {
                 children: [
                   Expanded(
                     child: CategoryButton(
-                      name: 'All Topic Available',
+                      text: 'All Topic Available',
                       image: 'assets/images/book.png',
                     ),
                   ),
                   SizedBox(width: 30.0),
                   Expanded(
                     child: CategoryButton(
-                      name: 'Personlized Coaching',
+                      text: 'Personlized Coaching',
                       image: 'assets/images/copy-writing.png',
                     ),
                   ),
