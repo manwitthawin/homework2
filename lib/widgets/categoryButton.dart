@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class CategoryButton extends StatelessWidget {
-  final String name;
+  final String text;
   final String image;
 
   //final IconData icon;
   const CategoryButton({
     super.key,
-    required this.name, //required notation ที่เราจะใส่ใน argument ที่บังคับให้ใส่
+    required this.text, //required notation ที่เราจะใส่ใน argument ที่บังคับให้ใส่
     required this.image,
     //required this.icon,
   });
@@ -25,7 +25,7 @@ class CategoryButton extends StatelessWidget {
             height: 60.0,
           ),
           Text(
-            name,
+            text,
             style: TextStyle(
               fontSize: 14.0,
               fontWeight: FontWeight.w900,
